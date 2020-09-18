@@ -12,4 +12,5 @@ rl = arr(0, pi, 15)
 rll = arr(4*(pi**2), 0, 4)
 rlll = arr(0,-(pi**3),0)
 
-print(apl.resolucao(rl, rll, rlll))
+#print(apl.resolucao(rl, rll, rlll))
+print(apl.imprime_resultados(rl,rll, rlll))

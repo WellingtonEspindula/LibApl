@@ -16,6 +16,10 @@ def resolucao(rl, rll, rlll):
              ["aceleracao_normal", aceleracao_norm(rl,rll)],
              ["aceleracao_tangencial", aceleracao_tan(rl, rll)]]
 
+def imprime_resultados(rl, rll, rlll):
+    for r in resolucao(rl, rll, rlll):
+        print("{}: {}".format(r[0].capitalize(), r[1]))
+
 def torcao(rl, rll, rlll):
     """ rl eh a derivada primeira da curva r(t) no tempo t 
         rll eh a derivada segunda
