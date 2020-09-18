@@ -1,4 +1,4 @@
-# Biblioteca de uso para a Area 1 de Matemática Aplicada
+# Biblioteca para a Área 1 de Matemática Aplicada
 
 ## Uso:
 O arquivo teste_apl.py apresenta um exemplo de uso da biblioteca de matemática aplicada. <br />
